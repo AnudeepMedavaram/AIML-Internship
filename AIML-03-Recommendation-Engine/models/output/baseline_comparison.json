@@ -1,0 +1,22 @@
+{
+    "evaluation": {
+        "dataset": "MovieLens 25M validation",
+        "users": 200,
+        "candidate_movies": 1000,
+        "top_k": 10,
+        "random_seed": 42,
+        "relevance_rule": "rating >= 4.0",
+        "seen_training_movies_excluded": true,
+        "candidate_source": "popular_movies.parquet"
+    },
+    "popularity_baseline": {
+        "recall_at_10": 0.06179396155525876,
+        "ndcg_at_10": 0.10561450986639159,
+        "users_evaluated": 200
+    },
+    "two_tower": {
+        "recall_at_10": 0.011640915438791706,
+        "ndcg_at_10": 0.01928423517852891,
+        "users_evaluated": 200
+    }
+}

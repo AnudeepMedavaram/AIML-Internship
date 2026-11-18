@@ -1,0 +1,8 @@
+{
+    "index_type": "IndexFlatIP",
+    "scoring": "raw_dot_product_divided_by_sqrt_embedding_dim_plus_biases",
+    "embedding_normalization": false,
+    "num_movies": 62423,
+    "embedding_dim": 64,
+    "index_dimension": 66
+}

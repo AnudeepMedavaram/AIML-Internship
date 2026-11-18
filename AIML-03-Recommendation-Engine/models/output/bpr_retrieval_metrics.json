@@ -1,0 +1,9 @@
+{
+    "model": "BPR Matrix Factorization",
+    "evaluation_users": 200,
+    "catalogue_size": 62423,
+    "k": 10,
+    "recall_at_10": 0.008406937858000245,
+    "ndcg_at_10": 0.03366220604894852,
+    "seed": 42
+}

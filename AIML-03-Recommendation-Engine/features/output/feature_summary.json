@@ -1,0 +1,29 @@
+{
+    "training_interactions": 20008738,
+    "users_with_training_interactions": 137924,
+    "movies_in_catalogue": 62423,
+    "movie_features": 62423,
+    "popular_movies": 1000,
+    "files": {
+        "user_features": {
+            "rows": 137924,
+            "file": "features/output/user_features.parquet"
+        },
+        "movie_features": {
+            "rows": 62423,
+            "file": "features/output/movie_features.parquet"
+        },
+        "popular_movies": {
+            "rows": 1000,
+            "file": "features/output/popular_movies.parquet"
+        },
+        "user_id_map": {
+            "rows": 137924,
+            "file": "features/output/user_id_map.parquet"
+        },
+        "movie_id_map": {
+            "rows": 62423,
+            "file": "features/output/movie_id_map.parquet"
+        }
+    }
+}

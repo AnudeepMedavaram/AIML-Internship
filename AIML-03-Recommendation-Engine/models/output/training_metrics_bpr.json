@@ -1,0 +1,50 @@
+{
+    "model": "BPR Matrix Factorization",
+    "num_users": 137924,
+    "num_movies": 62423,
+    "embedding_dim": 64,
+    "training_pairs": 479220,
+    "validation_pairs": 53246,
+    "epochs": 5,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06,
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.6805791915425733,
+            "validation_loss": 0.6675228688564916,
+            "validation_pairwise_accuracy": 0.8335461818728167
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.6552292505581656,
+            "validation_loss": 0.6438437700562656,
+            "validation_pairwise_accuracy": 0.8413401945686061
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.6314612692248507,
+            "validation_loss": 0.6215841282933309,
+            "validation_pairwise_accuracy": 0.8449460992375014
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.6079404454618129,
+            "validation_loss": 0.5998596918711425,
+            "validation_pairwise_accuracy": 0.8482327310971716
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.5832328341484946,
+            "validation_loss": 0.5777800767417155,
+            "validation_pairwise_accuracy": 0.8511061863801975
+        }
+    ],
+    "final_validation": {
+        "epoch": 5,
+        "train_loss": 0.5832328341484946,
+        "validation_loss": 0.5777800767417155,
+        "validation_pairwise_accuracy": 0.8511061863801975
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "model": "Two-Tower Retrieval Model",
+    "sampling": "Movie-balanced, max 30 per movie per class",
+    "embedding_dim": 64,
+    "epochs": 3,
+    "batch_size": 8192,
+    "training_pairs": 709201,
+    "training_users": 83279,
+    "training_movies": 30904,
+    "validation_pairs": 16839,
+    "validation_roc_auc": 0.7254161644999081,
+    "validation_accuracy": 0.667319912108795,
+    "training_history": [
+        {
+            "epoch": 1,
+            "training_loss": 0.6803171675322331
+        },
+        {
+            "epoch": 2,
+            "training_loss": 0.648801441345343
+        },
+        {
+            "epoch": 3,
+            "training_loss": 0.6153955459761136
+        }
+    ],
+    "model_file": "models/output/two_tower_model.pt"
+}

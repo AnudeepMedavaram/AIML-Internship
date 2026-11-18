@@ -1,0 +1,34 @@
+{
+    "model": "two_tower",
+    "evaluation_dataset": "MovieLens 25M validation",
+    "relevance_rule": "rating >= 4.0",
+    "random_seed": 42,
+    "users_sampled": 200,
+    "top_k": 10,
+    "evaluation_method": "full_catalogue_faiss_retrieval",
+    "seen_training_movies_excluded": true,
+    "coverage_definition": "Embedding represented in two_tower train_pairs.parquet",
+    "coverage_groups": {
+        "warm_user_warm_movie": {
+            "description": "User and relevant movie represented in training pairs",
+            "users_evaluated": 177,
+            "relevant_movies": 4750,
+            "recall_at_10": 0.012060846810688438,
+            "ndcg_at_10": 0.04165106901903234
+        },
+        "warm_user_cold_movie": {
+            "description": "User represented, relevant movie absent from training pairs",
+            "users_evaluated": 1,
+            "relevant_movies": 1,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+        },
+        "cold_user": {
+            "description": "User absent from training pairs",
+            "users_evaluated": 22,
+            "relevant_movies": 595,
+            "recall_at_10": 0.030735060267471904,
+            "ndcg_at_10": 0.12101062993372412
+        }
+    }
+}

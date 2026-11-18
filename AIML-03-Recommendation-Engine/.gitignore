@@ -1,0 +1,22 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/
+.vscode/
+
+# Datasets
+**/data/raw/
+**/data/processed/
+
+# Generated feature files
+**/features/output/*.parquet
+
+# Model checkpoints and retrieval indexes
+**/models/output/*.pt
+**/models/output/*.pth
+**/retrieval/output/*.faiss
+**/retrieval/output/*.npy
+"@ | Set-Content .gitignore

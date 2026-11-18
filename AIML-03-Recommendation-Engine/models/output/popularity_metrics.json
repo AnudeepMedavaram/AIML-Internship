@@ -1,0 +1,12 @@
+{
+    "model": "popularity_baseline",
+    "evaluation_dataset": "MovieLens 25M validation",
+    "relevance_rule": "rating >= 4.0",
+    "users_evaluated": 200,
+    "random_seed": 42,
+    "top_k": 10,
+    "recall_at_10": 0.03444682842989668,
+    "ndcg_at_10": 0.08149940515214853,
+    "popularity_candidates": 1000,
+    "seen_training_movies_excluded": true
+}

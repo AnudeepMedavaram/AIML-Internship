@@ -1,0 +1,13 @@
+{
+    "model": "two_tower",
+    "evaluation_dataset": "MovieLens 25M validation",
+    "relevance_rule": "rating >= 4.0",
+    "users_evaluated": 200,
+    "random_seed": 42,
+    "top_k": 10,
+    "recall_at_10": 0.025865639194609304,
+    "ndcg_at_10": 0.055335313563618024,
+    "evaluation_method": "full_catalogue_faiss_retrieval",
+    "scoring": "exact_training_score_without_embedding_normalization",
+    "seen_training_movies_excluded": true
+}
